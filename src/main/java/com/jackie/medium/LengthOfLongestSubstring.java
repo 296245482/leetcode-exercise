@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * LeetCode-3
- *
+ * 最长连续不重复子串，字符前后两个指针，维护一个滑动窗口
  * @author Long Cheng
  * @date 2019/1/5.
  */

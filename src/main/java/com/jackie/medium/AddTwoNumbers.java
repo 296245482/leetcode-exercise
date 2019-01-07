@@ -4,7 +4,7 @@ import com.jackie.datastructures.ListNode;
 
 /**
  * LeetCode-2
- *
+ * 链表数字相加
  * @author Long Cheng
  * @date 2019/1/5.
  */

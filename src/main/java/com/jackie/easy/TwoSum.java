@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * leetcode-1
- *
+ * 另一个数组不断新加互补数，当互补数出现在数组中就返回结果
  * @author Long Cheng
  * @date 2019/1/5.
  */
