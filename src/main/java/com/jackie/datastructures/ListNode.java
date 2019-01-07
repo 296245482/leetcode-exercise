@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * ListNode
- *
+ * Link List Node
  * @author Long Cheng
  * @date 2019/1/5.
  */
