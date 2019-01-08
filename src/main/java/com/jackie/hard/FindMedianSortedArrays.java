@@ -2,7 +2,7 @@ package com.jackie.hard;
 
 /**
  * LeetCode-4
- *
+ * 将问题转换为求两个数组total/2的数,通过比较两个数组中total/2位置的数,从而每次删除掉其中一个数组的一部分,将两个数组不断缩小直至只有所求的那1/2个数
  * @author Long Cheng
  * @date 2019/1/5.
  */
