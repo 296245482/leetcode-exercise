@@ -14,11 +14,6 @@ public class ListNode {
     public int val;
     public ListNode next;
 
-    public ListNode() {
-        val = 0;
-        next = null;
-    }
-
     public ListNode(int x) {
         val = x;
     }
@@ -44,6 +39,16 @@ public class ListNode {
             node = temp;
         }
         return first;
+    }
+
+    public void print() {
+        System.out.print(this.val + " ");
+        ListNode temp = this.next;
+        while (temp != null) {
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+        System.out.println();
     }
 
 }
