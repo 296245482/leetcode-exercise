@@ -22,7 +22,7 @@ public class MergeTwoLists {
 
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode i = l1, j = l2;
-        ListNode res = new ListNode();
+        ListNode res = new ListNode(0);
         ListNode r = res;
         while (i != null && j != null) {
             if (i.val < j.val) {

@@ -16,7 +16,7 @@ public class RemoveNthFromEnd {
             first = first.next;
         }
         ListNode nowNode = head;
-        ListNode preNode = new ListNode();
+        ListNode preNode = new ListNode(0);
         if (first.next == null) {
             head = head.next;
         }
