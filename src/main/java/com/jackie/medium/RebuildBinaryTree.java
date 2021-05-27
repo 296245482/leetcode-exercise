@@ -23,8 +23,8 @@ public class RebuildBinaryTree {
         TreeNode treeNode = new TreeNode(pre[preStart]);
         for (int i = inStart; i <= inEnd; i ++) {
             if (pre[preStart] == in[i]) {
-                treeNode.setLeftSon(build(pre, preStart + 1, preStart - inStart + i, in, inStart, i -1));
-                treeNode.setRightSon(build(pre, preStart - inStart + i + 1, preEnd, in, i+1, inEnd));
+                treeNode.setLeft(build(pre, preStart + 1, preStart - inStart + i, in, inStart, i -1));
+                treeNode.setRight(build(pre, preStart - inStart + i + 1, preEnd, in, i+1, inEnd));
             }
         }
         return treeNode;
